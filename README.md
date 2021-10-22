@@ -1,3 +1,3 @@
-## REST API with node.js project
+## byke REST API
 
-A simple REST API built with node.js and mongodb
+The rest api for the byke user and byke cycle app

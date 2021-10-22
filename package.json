@@ -1,7 +1,7 @@
 {
   "name": "node-rest-api",
   "version": "1.0.0",
-  "description": "REST API built with node",
+  "description": "REST API for byke app",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -L index",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olamide203/byke-rest-api"
+    "url": "https://github.com/UIHacks2021-byke/byke-rest-api.git"
   },
   "author": "Olamide Atitebi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/olamide203/byke-rest-api/issues"
+    "url": "https://github.com/UIHacks2021-byke/byke-rest-api.git/issues"
   },
-  "homepage": "https://github.com/olamide203/byke-rest-api#readme",
+  "homepage": "https://github.com/UIHacks2021-byke/byke-rest-api.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
