@@ -4,7 +4,7 @@ GET http://192.168.33.10:8080/users
 GET http://192.168.33.10:8080/users/616c2c19bcb25ac2159c1596
 
 ###
-POST http://192.168.33.10:8080/users 
+POST http://127.0.0.1:8080/users 
 Content-Type: application/json
 
 {

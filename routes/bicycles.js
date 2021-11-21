@@ -5,13 +5,12 @@ const router = express.Router();
 // creating a new bicycle
 router.post("/", async (req, res) => {
   const bike = new Bike({
-    type = req.body.type,
-    longitude = req.body.longitude,
-    latitude = req.body.latitude,
-    heading: req.body.heading
+    type:  req.body.type,
+    longitude: req.body.longitude,
+    latitude: req.body.latitude,
   })
   try {
-    const newBike = await Bike.bulkSave();
+    const newBike = await bike.save();
     res.status(201).json(newBike);
   } catch (err) {
     res.status(400).json({ message: err.message })
@@ -49,9 +48,6 @@ router.patch("/:id", getBike, async(req, res)=>{
   }
   if(req.body.longitude != null){
     res.bike.longitude = req.body.longitude;
-  }
-  if(req.body.heading != null){
-    req.bike.heading =req.body.heading
   }
   try {
     const updatedBike = await res.bike.save();
