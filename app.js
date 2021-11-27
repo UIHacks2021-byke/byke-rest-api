@@ -6,9 +6,9 @@ require("dotenv/config");
 // create an instance of express
 const app = express();
 
-// import routes
-const usersRoute = require("./routes/users");
-const bicycleRoute = require("./routes/bicycles");
+// import routers
+const usersRoute = require("./routers/users");
+const bicycleRoute = require("./routers/bicycles");
 // middlewares
 app.use(cors());
 app.use(express.json());
