@@ -20,7 +20,7 @@ router.post("/", async (req, res) => {
 // getting all bicycles
 router.get("/", async (req, res) => {
   try {
-    const bikes = await Bikes.find();
+    const bikes = await Bike.find();
     res.json(bikes);
   } catch (err) {
     res.status(500).json({ message: err.message })
