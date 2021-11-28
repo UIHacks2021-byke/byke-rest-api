@@ -1,8 +1,9 @@
-[image](./logo.png)
+![image](./logo.png)
+[![GitHub issues](https://img.shields.io/github/issues/UIHacks2021-byke/byke-rest-api?style=for-the-badge)](https://github.com/UIHacks2021-byke/byke-rest-api/issues)
 # byke REST API
 ## The REST API for the byke app
 
-[![GitHub issues](https://img.shields.io/github/issues/UIHacks2021-byke/byke-rest-api?style=for-the-badge)](https://github.com/UIHacks2021-byke/byke-rest-api/issues) 
+ 
 This is a REST API for a bike hailing app
 
 
