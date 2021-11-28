@@ -42,5 +42,5 @@ npm run test
 
 [![GitHub license](https://img.shields.io/github/license/UIHacks2021-byke/byke-rest-api?style=for-the-badge)](https://github.com/UIHacks2021-byke/byke-rest-api/blob/main/LICENSE)
 
-<img src="logo.png" alt="logo" width="100%"/>
+
 
