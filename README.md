@@ -33,11 +33,12 @@ npm run start
 ## Usage
 
 |URL Endpoint |Description                  |
-|_____________|_____________________________|
+|-------------|-----------------------------|
 |/users       | get all users               |
 |/users/:id   | get user with specific id   |
 |/bicycles    | get all bicycles            |
 |/bicycles/:id| get bicycle with specific id|
+
 ## Test
 this project uses mocha and chai for unit test
 run the following code in the terminal to carry out unit test
